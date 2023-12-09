@@ -26,4 +26,5 @@ l = [12, 4, 8]
 e = 2.7
 
 def floordiv(x, y):
-    return x // y
+    if y != 0: return x // y
+	else     : return 'Division not possible'
